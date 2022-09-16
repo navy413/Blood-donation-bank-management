@@ -1,0 +1,98 @@
+body {
+  background-image: url(picture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+/*navbar*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+font-size: 25px;
+
+   
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  /*Table and search bar*/
+
+  * {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid black;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #8B0000;
+  background-color:#EEE8AA;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+header {
+  /*background-color: #666;*/
+  padding: 10px;
+  text-align: left;
+  font-size: 30px;
+  color: black;
+}
+
+/* Style the footer */
+footer {
+  /*background-color: #000000;*/
+  padding: 50px;
+  text-align: center;
+font-size: 35px;
+  color: black;
+}
+
+
+
+
+
+
+
