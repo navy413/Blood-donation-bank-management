@@ -109,7 +109,7 @@ h2{
 }
 
 .image{
-    top: 3000px;
+    top: 3175px;
     position: absolute;
     right:100px;
     bottom: -3%;
@@ -447,20 +447,25 @@ h1{
     margin-top: 100px;
     border-collapse: collapse;
     width: 100%;
-    border: 1px solid #ddd;
+    border: 1px solid #EEE8AA;
     font-size: 18px;
     background-color:#EEE8AA;
 }
 
-#myTable th, #myTable td {
+#myTable th {
     text-align: left;
-    padding: 12px;
+    padding: 15px;
+    font-weight: bold;
+}
+ #myTable td {
+    text-align: left;
+    padding: 15px;
 }
 
 #myTable tr {
-    border-bottom: 1px solid #8B0000;
+    border-bottom: 2px solid #8B0000;
     background-color:#EEE8AA;
-    width: 100%;
+    width: 200%;
 }
 
 #myTable tr.header, #myTable tr:hover {

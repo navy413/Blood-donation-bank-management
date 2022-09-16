@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>@yield('title')</title>
 </head>
-<body style="background-image: url(''); height: 100%; background-repeat: no-repeat; background-size: cover;">
+<body>
 
 @yield('content')
 

@@ -87,7 +87,7 @@
         <th scope="col">Email</th>
         <th scope="col">Address</th>
         <th scope="col">Phone</th>
-        <th scope="col">Blood-type</th>
+        <th scope="col">Blood-Type</th>
         <th scope="col">Age</th>
         <th></th>
     </tr>
