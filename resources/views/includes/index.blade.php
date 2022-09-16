@@ -3,9 +3,9 @@
     <img class="logo" src="logo.png" alt="logo">
     <nav>
         <ul class="nav-links">
-            <li><a href="/homepage">HOME</a></li>
-            <li><a href="/About">ABOUT</a></li>
-            <li><a href="/Contactus">CONTACT US</a></li>
+            <li><a href="/homepage"><button  >HOME</button></a></li>
+            <li><a href="/About"><button >ABOUT</button></a></li>
+            <li><a href="/Contactus"><button> CONTACT US </button> </a></li>
         </ul>
     </nav>
 </header>

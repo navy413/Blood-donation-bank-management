@@ -47,8 +47,8 @@ class DonorController extends Controller
             'email' => $request->email,
             'address' => $request->address,
             'phone' => $request->phone,
-            'blood-type' => $request->blood,
-            'age' => $request->age,
+            'bloodtype' => $request->bloodtype,
+            'age' => $request->age
         ]);
 
         return redirect()->route('donor.index');
@@ -63,8 +63,7 @@ class DonorController extends Controller
     public function show($id)
     {
 
-        $donor = Donor::findOrFail($id);
-        return view('Donors.show',compact('donor'));
+       //
 
     }
 

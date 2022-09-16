@@ -24,7 +24,6 @@ Route::prefix('donors')->group(function (){
     Route::post("/store",[DonorController::class,'store'])->name('donor.store');
     Route::get("/show/{id}",[DonorController::class,'show'])->name('donor.show');
 
-
-
 });
+
 
